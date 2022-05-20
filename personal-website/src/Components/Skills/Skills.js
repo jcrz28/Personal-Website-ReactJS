@@ -7,12 +7,15 @@ import DeveloperTools from './DeveloperTools';
 const Skills = () => {
     return (
         <section id = "skill-section">
-            <h1 className = "title">Skills</h1>
-            <div className = "skills">
-                <Languages />
-                <FrameworkAndLibraries />
-                <DeveloperTools />
+            <div className='container'>
+                <h1 className = "title">Skills</h1>
+                <div className = "skills">
+                    <Languages />
+                    <FrameworkAndLibraries />
+                    <DeveloperTools />
+                </div>
             </div>
+           
     </section>
     );
 }

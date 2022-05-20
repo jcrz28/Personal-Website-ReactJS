@@ -45,14 +45,17 @@ const Projects = () => {
 
     return (
         <section id = "project-section">
-            <h1 className = "title"> Projects </h1>
-            <main>
-                <Weather items = {vidInfo[4]}/>
-                <Yugioh items = {vidInfo[3]}/>
-                <SMS items = {vidInfo[2]}/>
-                <DataRetriever items = {vidInfo[1]}/>
-                <VoiceRecognition items = {vidInfo[0]}/>
-            </main>
+            <div className='container'>
+                <h1 className = "title"> Projects </h1>
+                <main>
+                    <Weather items = {vidInfo[4]}/>
+                    <Yugioh items = {vidInfo[3]}/>
+                    <SMS items = {vidInfo[2]}/>
+                    <DataRetriever items = {vidInfo[1]}/>
+                    <VoiceRecognition items = {vidInfo[0]}/>
+                </main>
+            </div>
+           
         </section>
     );
 }

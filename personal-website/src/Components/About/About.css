@@ -9,6 +9,9 @@
 }
 
 .about-info{
+    display: flex;
+    align-items: center;
+    height: 100%;
     margin: auto 150px;
 }
 
@@ -29,7 +32,7 @@
     width: 400px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     #about-section{
         -ms-grid-columns: 1fr;
         grid-template-columns: repeat(1, 1fr);
@@ -49,11 +52,15 @@
 }
 
 @media screen and (max-width: 525px) {
+    #about-section{
+        padding: 0;
+    }
+
     .about-info{
-        margin: auto 10px;
+        margin: auto 0px;
     }
     
     .about-image img {
-        width: 320px !important;
+        width: 320px;
     }
 }
