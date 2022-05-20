@@ -1,5 +1,8 @@
 .skills {
+    display: -ms-grid;
     display: grid;
+
+    -ms-grid-columns: 1fr 1fr 1fr;  
     grid-template-columns: repeat(3,1fr);
     grid-gap: 3rem;
 
@@ -30,7 +33,10 @@
 }
 
 .list {
+    display: -ms-grid;
     display: grid;
+
+    -ms-grid-columns: 1fr 1fr;  
     grid-template-columns: repeat(2, 1fr);
 
     line-height: 3rem;
@@ -40,27 +46,21 @@
 
 @media screen and (max-width: 1300px) {
     .list, .skills{
+        -ms-grid-columns: 1fr 1fr;  
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .skills{
-        margin: auto 100px;
     }
 }
 
 @media screen and (max-width: 1024px){
     .list, .skills{
+        -ms-grid-columns: 1fr;  
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    .skills{
-        margin: auto 50px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .skills{
-        margin: auto 30px;
+        margin: auto 50px;
     }
 }
 

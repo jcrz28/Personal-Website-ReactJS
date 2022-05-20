@@ -5,6 +5,8 @@ main {
 
     justify-content: space-evenly;
     padding: 1rem;
+    margin: auto 150px;
+
 }
 
 .info{
@@ -21,4 +23,23 @@ video{
 
 div button{
     margin-top:10px;
+}
+
+@media screen and (max-width: 1200px) {
+    main{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        margin: auto 50px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    main{
+        margin: auto 0px;
+    }
 }
