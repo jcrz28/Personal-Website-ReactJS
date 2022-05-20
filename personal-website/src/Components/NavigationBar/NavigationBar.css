@@ -1,0 +1,29 @@
+.navbar{
+    background-color: darkblue;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    padding: 0rem 1rem;
+    font-size: 1.5rem !important;
+}
+
+#responsive-navbar-nav .navbar-nav a{
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;  
+}
+
+#responsive-navbar-nav{
+    padding: 0.5rem 0rem;
+    text-align: left;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: blue;
+}
+
+button.navbar-toggler{
+    background-color: blue;
+    margin-top:0;
+}

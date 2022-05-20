@@ -1,0 +1,18 @@
+section{
+    background-color: whitesmoke;
+    margin-top: 190px;
+}
+
+.title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header{
+    margin: auto;
+    padding: 1rem 0px; 
+
+    font-size: 2rem;
+    text-align: center;
+}

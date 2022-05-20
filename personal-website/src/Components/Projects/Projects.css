@@ -1,0 +1,24 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.info{
+    background-color: white;
+    padding:10px;
+    border-style: groove;
+}
+
+video{
+    width:100%; 
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+div button{
+    margin-top:10px;
+}

@@ -1,0 +1,21 @@
+footer{
+    position: relative;
+    background-color: darkblue;
+    padding: 1.5rem;
+    margin-top: 190px;
+}
+
+.footer-links{
+    text-align: center;
+}
+
+.footer-links a {
+    font-size: 2rem;
+    margin: 0rem 1rem;
+    color: white;
+}
+
+.footer-links a:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.25);
+}
