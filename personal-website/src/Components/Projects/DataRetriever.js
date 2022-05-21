@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Accordion} from 'react-bootstrap';
-import DataRetrieverDemo from '../assets/vid/DataRetrieverDemo.mp4'
 import ProjectHeader from './ProjectHeader/ProjectHeader';
 
 const DataRetriever = (props) => {
@@ -11,8 +10,8 @@ const DataRetriever = (props) => {
             title = {props.items.title}
             vid = {props.items.vid}
             />
-            <Accordion defaultkey="2">
-                <Accordion.Item eventKey="2">
+            <Accordion defaultkey={props.items.id}>
+                <Accordion.Item eventKey={props.items.id}>
                     <Accordion.Header>More Info</Accordion.Header>
                     <Accordion.Body>
                         <div className="card card-body">

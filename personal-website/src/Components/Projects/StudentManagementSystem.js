@@ -10,8 +10,8 @@ const StudentManagementSystem = (props) => {
             title = {props.items.title}
             vid = {props.items.vid}
             />
-            <Accordion defaultkey="3">
-                <Accordion.Item eventKey="3">
+            <Accordion defaultkey={props.items.id}>
+                <Accordion.Item eventKey={props.items.id}>
                     <Accordion.Header>More Info</Accordion.Header>
                     <Accordion.Body>
                         <div className="card card-body">

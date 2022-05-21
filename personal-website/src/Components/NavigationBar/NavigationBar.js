@@ -12,7 +12,7 @@ const NavigationBar = () => {
             <Nav className="me-auto">
             <Nav.Link href="#about-section">About Me</Nav.Link>
             <Nav.Link href="#skill-section">Skills</Nav.Link>
-            <Nav.Link href="#pricing">Projects</Nav.Link>
+            <Nav.Link href="#project-section">Projects</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css';
 
-import Resume from '../assets/Resume.pdf'
-import cardBackground from '../assets/img/card-background.jpg';
-import cardProfile from '../assets/img/card-profile.jpg';
+import Resume from '../Assets/Resume.pdf'
+import cardBackground from '../Assets/img/card-background.jpg';
+import cardProfile from '../Assets/img/card-profile.jpg';
 
 const Card = () => {
     return (
