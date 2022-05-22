@@ -2,25 +2,15 @@ import React from 'react';
 import './Projects.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import VoiceRecognition from './VoiceRecognition';
 import VoiceRecognitionDemo from '../Assets/vid/VoiceRecognitionDemo.mp4'
-
-import DataRetriever from './DataRetriever';
 import DataRetrieverDemo from '../Assets/vid/DataRetrieverDemo.mp4'
-
-import StudentManagementSystem from './StudentManagementSystem';
 import SMSDemo from '../Assets/vid/SMSDemo.mp4'
-
-import Yugioh from './Yugioh';
 import YugiohDemo from '../Assets/vid/YugiohDemo.mp4'
-
-import Weather from './Weather';
 import WeatherDemo from '../Assets/vid/WeatherDemo.mp4'
-
-import ProjectCard from './ProjectCard';
+import ProjectLists from './ProjectLists';
 
 const Projects = () => {
-    const ProjectDescription = [
+    const ProjectContents = [
         {
             id: 1,
             title: "Voice Recognition Device",
@@ -64,18 +54,19 @@ const Projects = () => {
         <section id = "project-section">
             <div className='container'>
                 <h1> Projects </h1>
-                {/* <main>
-                    
-                    <Weather items = {ProjectDescription[4]}/>
-                    <Yugioh items = {ProjectDescription[3]}/>
-                    <StudentManagementSystem items = {ProjectDescription[2]}/>
-                    <DataRetriever items = {ProjectDescription[1]}/>
-                    <VoiceRecognition items = {ProjectDescription[0]}/>
-                </main> */}
-                <ProjectCard items = {ProjectDescription} />
-
+                <main>
+                    {
+                        ProjectContents.map((projects) => (
+                            <ProjectLists
+                            key = {projects.id}
+                            title = {projects.title}
+                            vid = {projects.vid}
+                            desc = {projects.desc}
+                            />
+                        ))
+                    }
+                </main>
             </div>
-           
         </section>
     );
 }

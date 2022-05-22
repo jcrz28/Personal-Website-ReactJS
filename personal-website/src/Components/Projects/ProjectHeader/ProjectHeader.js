@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectHeader.css';
 
-const ProjectHeader = (props) => {
+const ProjectHeader = props => {
     return (
         <div className="project-card">
             <div className="info">
