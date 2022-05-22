@@ -5,7 +5,7 @@
 
 .navbar-brand {
     padding: 0rem 1rem;
-    font-size: 1.5rem !important;
+    font-size: calc(1.5rem + .1vw) !important;
 }
 
 #responsive-navbar-nav .navbar-nav a{

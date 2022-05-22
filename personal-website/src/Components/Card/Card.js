@@ -19,7 +19,7 @@ const Card = () => {
                 
                 <div className = "card-content">
                     <h3>John Leonard Cruz</h3>
-                    <p>Computer Science Senior<br/>University of Houston</p>
+                    <p>B.S. in Computer Science<br/>University of Houston</p>
                 </div>
 
                 <div className = "icon-link">

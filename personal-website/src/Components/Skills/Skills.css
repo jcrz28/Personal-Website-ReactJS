@@ -38,12 +38,12 @@
     -ms-grid-columns: 1fr 1fr;  
     grid-template-columns: repeat(2, 1fr);
 
-    line-height: 3rem;
-    font-size: 1.25rem;
+    line-height: 3.5rem;
+    font-size: calc(1.25rem + .1vw) !important;
     padding: 0.5rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     .skills{
         -ms-grid-columns: 1fr 1fr;  
         grid-template-columns: repeat(2, 1fr);

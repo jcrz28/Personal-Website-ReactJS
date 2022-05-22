@@ -1,5 +1,4 @@
 footer{
-    position: relative;
     background-color: darkblue;
     padding: 1.5rem;
     margin-top: 190px;
@@ -10,7 +9,7 @@ footer{
 }
 
 .footer-links a {
-    font-size: 2rem;
+    font-size: calc(2rem + .1vw) !important;
     margin: 0rem 1.5rem;
     color: white;
 }

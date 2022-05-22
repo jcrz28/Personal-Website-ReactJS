@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
-
+  font-size: calc(1rem + .2vw) !important;
 }
 
 code {
