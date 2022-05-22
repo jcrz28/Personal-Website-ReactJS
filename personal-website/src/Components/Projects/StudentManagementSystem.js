@@ -1,7 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Accordion} from 'react-bootstrap';
 import ProjectHeader from './ProjectHeader/ProjectHeader';
+import ProjectInformation from './ProjectInformation';
 
 const StudentManagementSystem = (props) => {
     return (
@@ -10,25 +9,10 @@ const StudentManagementSystem = (props) => {
             title = {props.items.title}
             vid = {props.items.vid}
             />
-            <Accordion defaultkey={props.items.id}>
-                <Accordion.Item eventKey={props.items.id}>
-                    <Accordion.Header>More Info</Accordion.Header>
-                    <Accordion.Body>
-                        <div className="card card-body">
-                            <ul>
-                                <li>
-                                    Created a high school database to help students track and forecast their academic career by using WinForms 
-                                    application with C# and connecting MySQL to Visual Studio 2019.<br/>
-                                </li>
-                                <li>
-                                    Designed and programmed call to action buttons to store, retrieve, and manipulate data from a database server 
-                                    using SQL commands.
-                                </li>
-                            </ul>
-                        </div>
-                    </Accordion.Body>
-                </Accordion.Item>
-            </Accordion>
+             <ProjectInformation
+            id = {props.items.id}
+            desc = {props.items.desc}
+            />
         </div>
     );
 }

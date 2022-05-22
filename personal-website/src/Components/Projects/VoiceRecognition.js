@@ -1,7 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Accordion} from 'react-bootstrap';
 import ProjectHeader from './ProjectHeader/ProjectHeader';
+import ProjectInformation from './ProjectInformation';
 
 const VoiceRecognition = (props) => {
     return (
@@ -10,23 +9,10 @@ const VoiceRecognition = (props) => {
             title = {props.items.title}
             vid = {props.items.vid}
            />
-            <Accordion defaultkey={props.items.id}>
-                <Accordion.Item eventKey={props.items.id}>
-                    <Accordion.Header>More Info</Accordion.Header>
-                    <Accordion.Body>
-                        <div className="card card-body">
-                            <ul>
-                                <li>
-                                    Programmed a circuit board using C++ to map predefined voice commands and executing the appropriate action.<br/>
-                                </li>
-                                <li>
-                                    Designed the electrical layout using NI Multisim and hardwired electrical components on the circuit board.
-                                </li>
-                            </ul>
-                        </div>
-                    </Accordion.Body>
-                </Accordion.Item>
-            </Accordion>
+             <ProjectInformation
+            id = {props.items.id}
+            desc = {props.items.desc}
+            />
        </div>
         
     );

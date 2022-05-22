@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 
 import NavigationBar from './Components/NavigationBar/NavigationBar';
@@ -9,7 +10,7 @@ import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <NavigationBar/>
       <Card/>
       <About/>

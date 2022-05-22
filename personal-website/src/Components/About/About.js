@@ -16,7 +16,7 @@ const About = () => {
             <div className='container'>
                 <div className = "about-info">
                     <div>
-                        <h1 className = "title">About-Me</h1>
+                        <h1>About-Me</h1>
                         <p id = "self-introduction">
                             Hello! I am John Leonard Cruz, and I aspire to be a software engineer!
                         </p>
