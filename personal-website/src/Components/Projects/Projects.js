@@ -56,7 +56,7 @@ const Projects = () => {
                 <h1> Projects </h1>
                 <main>
                     {
-                        ProjectContents.map((projects) => (
+                        ProjectContents.reverse().map((projects) => (
                             <ProjectLists
                             key = {projects.id}
                             title = {projects.title}
