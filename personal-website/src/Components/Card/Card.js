@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-import Resume from '../Assets/Resume.pdf'
+import ResumePDF from '../Assets/Resume.pdf'
 import cardBackground from '../Assets/img/card-background.jpg';
 import cardProfile from '../Assets/img/card-profile.jpg';
 
@@ -40,7 +40,7 @@ const Card = () => {
                     </a>
                     
                     <a 
-                        href = {Resume} 
+                        href = {ResumePDF} 
                         aria-label="Resume" 
                         target ="_blank" 
                         rel="noopener noreferrer" 
