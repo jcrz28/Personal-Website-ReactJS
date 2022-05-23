@@ -2,11 +2,11 @@ import React from 'react';
 import './Projects.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import VoiceRecognitionDemo from '../Assets/vid/VoiceRecognitionDemo.mp4'
-import DataRetrieverDemo from '../Assets/vid/DataRetrieverDemo.mp4'
-import SMSDemo from '../Assets/vid/SMSDemo.mp4'
-import YugiohDemo from '../Assets/vid/YugiohDemo.mp4'
-import WeatherDemo from '../Assets/vid/WeatherDemo.mp4'
+import VoiceRecognitionDemo from '../assets/vid/VoiceRecognitionDemo.mp4'
+import DataRetrieverDemo from '../assets/vid/DataRetrieverDemo.mp4'
+import SMSDemo from '../assets/vid/SMSDemo.mp4'
+import YugiohDemo from '../assets/vid/YugiohDemo.mp4'
+import WeatherDemo from '../assets/vid/WeatherDemo.mp4'
 import ProjectLists from './ProjectLists';
 
 const Projects = () => {
