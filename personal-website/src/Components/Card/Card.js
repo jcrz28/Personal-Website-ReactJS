@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-import ResumePDF from '../assets/resume.pdf'
+import ResumePDF from '../assets/CruzResume.pdf'
 import cardBackground from '../assets/img/card-background.jpg';
 import cardProfile from '../assets/img/card-profile.jpg';
 
