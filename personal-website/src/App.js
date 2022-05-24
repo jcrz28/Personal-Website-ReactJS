@@ -10,14 +10,14 @@ import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <NavigationBar/>
       <Card/>
       <About/>
       <Skills/>
       <Projects/>
       <Footer/>
-    </div>
+    </React.Fragment>
   );
 }
 
