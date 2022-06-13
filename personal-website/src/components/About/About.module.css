@@ -4,6 +4,7 @@
     align-items: center;
     height: 90vh;
     padding-top: 1rem;
+    margin: 0rem calc(1vw + 1rem);
 }
 
 .grid{

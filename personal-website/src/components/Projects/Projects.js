@@ -52,7 +52,7 @@ const Projects = () => {
         <section className={classes.project}>
             <div className={classes.adjust}>
                 <h1> Projects </h1>
-                <main className={classes.main}>
+                <main className={classes.grid}>
                     {
                         ProjectContents.reverse().map((projects) => (
                             <ProjectLists

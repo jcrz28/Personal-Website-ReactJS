@@ -10,7 +10,7 @@
     margin: auto;
 }
 
-.main {
+.grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap:calc(1vw + 3rem);
@@ -19,13 +19,13 @@
     padding: calc(1vw + 1rem);
 }
 
-.main video{
+.grid video{
     width:100%; 
     aspect-ratio: 16/9;
 }
 
 @media screen and (max-width: 1200px) {
-    .main{
+    .grid{
         grid-template-columns: repeat(1, 1fr);
     }
 }
