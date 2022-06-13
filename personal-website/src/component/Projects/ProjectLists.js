@@ -1,11 +1,11 @@
 import React from 'react';
-import ProjectHeader from './ProjectHeader/ProjectHeader';
+import Header from './ProjectHeader/Header';
 import ProjectInfo from './ProjectInfo';
 
 const ProjectLists = props => {
     return (
         <div>
-            <ProjectHeader 
+            <Header 
             title = {props.title}
             vid = {props.vid}
             />

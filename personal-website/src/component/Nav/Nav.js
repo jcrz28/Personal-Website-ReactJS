@@ -1,18 +1,19 @@
 import React from 'react';
-import './NavigationBar.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom';
 import {Navbar, Nav} from 'react-bootstrap';
+import classes from './Nav.module.css';
 
 const NavigationBar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="dark">
+        <Navbar className = {classes.navbar} collapseOnSelect expand="lg" variant="dark">
         <Navbar.Brand>JCRZ28</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link href="#about-section">About Me</Nav.Link>
-            <Nav.Link href="#skill-section">Skills</Nav.Link>
-            <Nav.Link href="#project-section">Projects</Nav.Link>
+                <Link to = '/'>Home</Link>
+                <Link to = '/AboutMe'>About Me</Link>
+                <Link to = '/Skills'>Skills</Link>
+                <Link to = '/Projects'>Projects</Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

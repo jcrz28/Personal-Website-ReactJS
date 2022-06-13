@@ -1,22 +1,24 @@
 import React from 'react';
-import './App.css';
-
-import NavigationBar from './Components/NavigationBar/NavigationBar';
-import Card from './Components/Card/Card';
-import About from './Components/About/About';
-import Skills from './Components/Skills/Skills';
-import Projects from './Components/Projects/Projects';
-import Footer from './Components/Footer/Footer';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import './global.css';
+import Nav from './component/Nav/Nav';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import SkillPage from './pages/SkillPage';
+import ProjectPage from './pages/ProjectPage';
 
 function App() {
   return (
     <React.Fragment>
-      <NavigationBar/>
-      <Card/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Footer/>
+      <BrowserRouter>
+        <Nav/>
+        <Routes>
+          <Route path = '/' element={<HomePage />} />
+          <Route path = '/AboutMe' element={<AboutPage />} />
+          <Route path = '/Skills' element={<SkillPage />} />
+          <Route path = '/Projects' element={<ProjectPage />} />
+        </Routes>
+      </BrowserRouter>
     </React.Fragment>
   );
 }

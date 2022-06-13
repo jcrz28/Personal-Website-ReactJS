@@ -1,17 +1,17 @@
 import React from 'react';
-import './ProjectHeader.css';
+import classes from './Header.module.css';
 
-const ProjectHeader = props => {
+const Header = props => {
     return (
-        <div className="project-card">
-            <div className="info">
+        <React.Fragment>
+            <div className={classes.header}>
                 <header>{props.title}</header>
             </div>
             <video controls>
                 <source src = {props.vid}/>
             </video>
-        </div>
+        </React.Fragment>
     );
 }
 
-export default ProjectHeader
+export default Header

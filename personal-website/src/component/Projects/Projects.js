@@ -1,12 +1,10 @@
-import React from 'react';
-import './Projects.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import classes from './Projects.module.css';
 
-import VoiceRecognitionDemo from '../assets/vid/VoiceRecognitionDemo.mp4'
-import DataRetrieverDemo from '../assets/vid/DataRetrieverDemo.mp4'
-import SMSDemo from '../assets/vid/SMSDemo.mp4'
-import YugiohDemo from '../assets/vid/YugiohDemo.mp4'
-import WeatherDemo from '../assets/vid/WeatherDemo.mp4'
+import VoiceRecognitionDemo from '../../assets/vid/VoiceRecognitionDemo.mp4'
+import DataRetrieverDemo from '../../assets/vid/DataRetrieverDemo.mp4'
+import SMSDemo from '../../assets/vid/SMSDemo.mp4'
+import YugiohDemo from '../../assets/vid/YugiohDemo.mp4'
+import WeatherDemo from '../../assets/vid/WeatherDemo.mp4'
 import ProjectLists from './ProjectLists';
 
 const Projects = () => {
@@ -51,10 +49,10 @@ const Projects = () => {
     ];
    
     return (
-        <section id = "project-section">
-            <div className='container'>
+        <section className={classes.project}>
+            <div className={classes.adjust}>
                 <h1> Projects </h1>
-                <main>
+                <main className={classes.main}>
                     {
                         ProjectContents.reverse().map((projects) => (
                             <ProjectLists
@@ -67,6 +65,7 @@ const Projects = () => {
                     }
                 </main>
             </div>
+            
         </section>
     );
 }

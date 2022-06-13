@@ -1,0 +1,24 @@
+.navbar{
+    background-color: darkblue;
+    padding: 1rem 2rem;
+}
+
+.navbar span {
+    padding: 0rem 1rem;
+    font-size: calc(1.5rem + .1vw) !important;
+}
+
+.navbar a {
+    color: white !important;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: blue;
+    border-radius: 0.5rem; 
+}
+
+.navbar button {
+    background-color: blue !important;
+}

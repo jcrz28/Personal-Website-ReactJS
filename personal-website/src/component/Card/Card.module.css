@@ -1,45 +1,51 @@
-.card-id{
+.card{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding-top: 1rem;
+}
 
-    width: 320px;
+.ID{
+    flex-direction: column;
+    width: calc(1vw + 20rem);
+    
+    /* Prevents from overflowing */
     margin: auto;
     
     background-color: white;
     border-style: groove;
 }
 
-.card-background img{
+.header img{
     width: 100%;
     height: 10rem;
 }
 
-.profile-card img{
+.profile img{
     display: block;
-    margin-top: -75px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: -75px auto auto;
     border-radius: 100px;
 }
 
-.card-content {
+.content{
     margin: 1rem 0rem 0rem;
     text-align: center;
     line-height: 4rem;
 }
 
-.icon-link{
+.icons{
     text-align: center;
     margin-bottom: 2rem;  
 }
 
-.icon-link a {
-    font-size: calc(2rem + .1vw) !important;
+.icons a {
+    font-size: calc(0.5vw + 1.5rem) !important;
     margin: 0rem 1rem;
     color: #0000cc;
 }
 
-.icon-link a:hover{
+.icons a:hover{
     color:black;
     transition-duration: 0.2s;
     transform: scale(1.25);

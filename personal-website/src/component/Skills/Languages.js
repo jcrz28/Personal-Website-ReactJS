@@ -1,21 +1,21 @@
-import React from 'react';
+import classes from './Skills.module.css';
 
 const Languages = () =>{
     return (
-        <div className= "skills-set">
+        <div className = {classes.set}>
             <span className ="fa fa-globe"></span>
             <header>Languages</header>
 
-            <div className = "list">
+            <div className = {classes.list}>
                 <label>Python</label>
                 <label>C++</label>
             </div>
-            <div className = "list">
+            <div className = {classes.list}>
                 <label>C#</label>
                 <label>SQL</label>
             </div>
         
-            <div className = "list">
+            <div className = {classes.list}>
                 <label>JavaScript</label>
                 <label>HTML/CSS</label>
             </div>

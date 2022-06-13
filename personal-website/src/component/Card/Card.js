@@ -1,28 +1,26 @@
-import React from 'react';
-import './Card.css';
-
-import ResumePDF from '../assets/CruzResume.pdf'
-import cardBackground from '../assets/img/card-background.jpg';
-import cardProfile from '../assets/img/card-profile.jpg';
+import classes from './Card.module.css';
+import ResumePDF from '../../assets/CruzResume.pdf'
+import headerBackground from '../../assets/img/card-background.jpg';
+import profile from '../../assets/img/card-profile.jpg';
 
 const Card = () => {
     return (
-        <section id = "card-section">
-            <div className ="card-id">
-                <div className = "card-background">
-                    <img alt = "card-background" src = {cardBackground}/>
+        <section className={classes.card}>
+            <div className={classes.ID}>
+                <div className = {classes.header}>
+                    <img alt = "headerBackground" src = {headerBackground}/>
                 </div>
 
-                <div className = "profile-card">
-                    <img alt = "profile-card" src = {cardProfile}/>
+                <div className = {classes.profile}>
+                    <img alt = "profile" src = {profile}/>
                 </div>
-                
-                <div className = "card-content">
+        
+                <div className = {classes.content}>
                     <h3>John Leonard Cruz</h3>
                     <p>B.S. in Computer Science<br/>University of Houston</p>
                 </div>
 
-                <div className = "icon-link">
+                <div className = {classes.icons}>
                     <a 
                         href= "https://www.linkedin.com/in/john-leonard-cruz/" 
                         aria-label="LinkedIn" 

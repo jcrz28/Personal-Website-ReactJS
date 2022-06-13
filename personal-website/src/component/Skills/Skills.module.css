@@ -1,0 +1,72 @@
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+    padding-top: 1rem;
+}
+
+.adjust {
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    grid-gap:calc(1vw + 3rem);
+    padding: calc(1vw + 1rem);
+    
+    text-align: center;
+}
+
+.set{
+    background-color: white;
+    padding: calc(1vw + 1.5rem);
+    border-style: groove;
+}
+
+.set span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    width: calc(.1vw + 5rem);
+    height: calc(.1vh + 5rem);
+
+    border-radius: 3rem;
+    font-size: calc(.1vh + 2.5rem);
+
+    background-color: blue;
+    color: white;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    line-height: calc(1vh + 2rem);
+    padding: calc(.1vh + 1rem);
+}
+
+@media screen and (max-width: 1420px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 950px){
+    .grid, .list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .list{
+        line-height: 3rem;
+        padding: 0rem;
+    }
+    .set{
+        width: 80vw;
+        max-width: 27rem;
+    }
+}
