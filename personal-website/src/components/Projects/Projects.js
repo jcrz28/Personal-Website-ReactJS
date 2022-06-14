@@ -50,21 +50,19 @@ const Projects = () => {
    
     return (
         <section className={classes.project}>
-            <div className={classes.adjust}>
-                <h1> Projects </h1>
-                <main className={classes.grid}>
-                    {
-                        ProjectContents.reverse().map((projects) => (
-                            <ProjectLists
-                            key = {projects.id}
-                            title = {projects.title}
-                            vid = {projects.vid}
-                            desc = {projects.desc}
-                            />
-                        ))
-                    }
-                </main>
-            </div>
+            <h1> Projects </h1>
+            <main className={classes.grid}>
+                {
+                    ProjectContents.reverse().map((projects) => (
+                        <ProjectLists
+                        key = {projects.id}
+                        title = {projects.title}
+                        vid = {projects.vid}
+                        desc = {projects.desc}
+                        />
+                    ))
+                }
+            </main>
             
         </section>
     );
