@@ -7,8 +7,8 @@ const FrameworkAndLibraries = () => {
             <header>Framework and Libraries</header>
 
             <div className = {classes.list}>
-                <label>Flask</label>
-                <label>Jinja Template</label>
+                <label>Python Flask</label>
+                <label>React JS</label>
             </div>
 
             <div className = {classes.list}>

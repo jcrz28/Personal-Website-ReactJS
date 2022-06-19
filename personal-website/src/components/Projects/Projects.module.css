@@ -1,5 +1,5 @@
 .project{
-    padding-top: 1rem ;
+    padding: 1rem ;
     margin: 0rem calc(1vw + 1rem);
 }
 
@@ -7,13 +7,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap:calc(1vw + 3rem);
-    
-    justify-content: space-evenly;
-    padding: calc(1vw + 1rem);
 }
 
 .grid video{
-    width:100%; 
+    width: 100%; 
     aspect-ratio: 16/9;
 }
 

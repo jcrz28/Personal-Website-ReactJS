@@ -6,14 +6,12 @@ import DeveloperTools from './DeveloperTools';
 const Skills = () => {
     return (
         <section className={classes.skill}>
-            <div className={classes.adjust}>
-                <h1 className = "title">Skills</h1>
-                <div className = {classes.grid}>
-                    <Languages />
-                    <FrameworkAndLibraries />
-                    <DeveloperTools />
-                </div>
-            </div>   
+            <h1 className = "title">Skills</h1>
+            <div className = {classes.grid}>
+                <Languages />
+                <FrameworkAndLibraries />
+                <DeveloperTools />
+            </div>
     </section>
     );
 }

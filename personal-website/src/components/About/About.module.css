@@ -2,17 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    padding-top: 1rem;
-    margin: 0rem calc(1vw + 1rem);
+    padding: 1rem;
+
+    /* Prevent contents from going up */
+    min-height: 90vh;
 }
 
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
-
-    /* Prevents from overflowing */
-    margin: auto;
     padding: calc(1vw + 1rem);
 }
 

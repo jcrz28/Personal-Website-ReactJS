@@ -2,16 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    padding-top: 1rem;
+    padding: 1rem;
+
+    /* Prevent contents from going up */
+    min-height: 90vh;
 }
 
 .ID{
     flex-direction: column;
     width: calc(1vw + 20rem);
-    
-    /* Prevents from overflowing */
-    margin: auto;
     
     background-color: white;
     border-style: groove;
