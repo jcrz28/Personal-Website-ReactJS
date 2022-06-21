@@ -1,10 +1,10 @@
 import React from 'react';
-import classes from './Header.module.css';
+import classes from './ProjectTitle.module.css';
 
-const Header = props => {
+const ProjectTitle = props => {
     return (
         <React.Fragment>
-            <div className={classes.header}>
+            <div className={classes.title}>
                 <header>{props.title}</header>
             </div>
             <video controls>
@@ -14,4 +14,4 @@ const Header = props => {
     );
 }
 
-export default Header
+export default ProjectTitle

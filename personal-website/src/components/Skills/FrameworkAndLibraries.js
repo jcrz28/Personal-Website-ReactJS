@@ -8,7 +8,7 @@ const FrameworkAndLibraries = () => {
 
             <div className = {classes.list}>
                 <label>Python Flask</label>
-                <label>React JS</label>
+                <label>React</label>
             </div>
 
             <div className = {classes.list}>

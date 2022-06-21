@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './ProjectHeader/Header';
+import ProjectTitle from './ProjectTitle/ProjectTitle';
 import ProjectInfo from './ProjectInfo';
 
 const ProjectLists = props => {
     return (
         <div>
-            <Header 
+            <ProjectTitle 
             title = {props.title}
             vid = {props.vid}
             />
@@ -13,7 +13,6 @@ const ProjectLists = props => {
             desc = {props.desc}
             />
         </div>
-        
     );
 };
 
