@@ -15,7 +15,7 @@ const ProjectTitle = props => {
                 {
                     !props.public && 
                     <header> {props.title} 
-                        {['right'].map((placement) => (
+                        {['bottom'].map((placement) => (
                             <OverlayTrigger
                                 key={placement}
                                 placement={placement}
