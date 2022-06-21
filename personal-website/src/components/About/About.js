@@ -1,16 +1,11 @@
 import React from 'react';
 import classes from './About.module.css';
-import aboutImage from '../../assets/img/about-image.png';
-
+import AboutCarousel from './AboutCarousel';
 const About = () => {
     return (
         <section className={classes.about}>
             <div className= {classes.grid}>
-                <div className = {classes.image}>
-                    <div>
-                        <img alt = "aboutImage" src = {aboutImage}/>
-                    </div>
-                </div>
+                    <AboutCarousel/>
                 <div className = {classes.info}>
                     <h1>About-Me</h1>
                     <p id = "self-introduction">
