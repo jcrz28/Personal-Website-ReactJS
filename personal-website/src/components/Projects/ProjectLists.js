@@ -7,6 +7,7 @@ const ProjectLists = props => {
         <div>
             <ProjectTitle 
             title = {props.title}
+            public ={props.public}
             vid = {props.vid}
             />
             <ProjectInfo

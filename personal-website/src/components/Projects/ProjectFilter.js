@@ -8,7 +8,6 @@ const ProjectFilter = (props) => {
     return (
         <div className={classes.filter}>
             <div className={classes.control}>
-                <label>Filter by year</label>
                 <select value ={props.selected} onChange={dropDownChangeHandler}>
                     <option value='all'>All</option>
                     <option value='2022'>2022</option>
