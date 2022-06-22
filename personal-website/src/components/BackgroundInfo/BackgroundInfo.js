@@ -1,29 +1,27 @@
 import React from 'react';
-import classes from './About.module.css';
-import AboutCarousel from './AboutCarousel';
-const About = () => {
+import classes from './BackgroundInfo.module.css';
+import BackgroundInfoImages from './BackgroundInfoImages';
+
+const BackgroundInfo = () => {
     return (
         <section className={classes.about}>
             <div className= {classes.grid}>
-                    <AboutCarousel/>
+                <BackgroundInfoImages/>
                 <div className = {classes.info}>
                     <h1>About-Me</h1>
-                    <p id = "self-introduction">
-                        Hello! I am John Leonard Cruz, and I aspire to be a software engineer!
+                    <p> Hello! I am John Leonard Cruz, and I aspire to be a software engineer!</p>
+                    <p>
+                        I recently graduated from the University of Houston with a Cum Laude honor in 
+                        Bachelor of Science in Computer Science.
                     </p>
-
-                    <p id = "background-education">
-                        I recently graduated from the University of Houston with a Cum Laude honor in Bachelor of Science in Computer Science.
-                    </p>
-                    <p id = "background-introduction">
+                    <p>
                         I am a growth-oriented individual with a passion for problem-solving, which lead me to study computer science. 
                         Throughout my college experience, I gained technical skills by creating personal projects,  
                         and I became a better team player by getting involved in club organizations and by participating in hackathons.
                     </p>
                 </div>
             </div>
-
         </section>
     );
 }
-export default About
+export default BackgroundInfo

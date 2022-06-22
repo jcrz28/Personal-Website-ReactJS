@@ -1,18 +1,18 @@
-import classes from './Card.module.css';
+import classes from './Profile.module.css';
 import ResumePDF from '../../assets/CruzResume.pdf'
-import headerBackground from '../../assets/img/card-background.jpg';
-import profile from '../../assets/img/card-profile.jpg';
+import HeaderPhoto from '../../assets/img/header-photo.jpg';
+import ProfilePhoto from '../../assets/img/profile-photo.jpg';
 
-const Card = () => {
+const Profile = () => {
     return (
         <section className={classes.card}>
             <div className={classes.ID}>
                 <div className = {classes.header}>
-                    <img alt = "headerBackground" src = {headerBackground}/>
+                    <img alt = "headerBackground" src = {HeaderPhoto}/>
                 </div>
 
                 <div className = {classes.profile}>
-                    <img alt = "profile" src = {profile}/>
+                    <img alt = "profile" src = {ProfilePhoto}/>
                 </div>
         
                 <div className = {classes.content}>
@@ -49,4 +49,4 @@ const Card = () => {
         </section>
     );
 }
-export default Card
+export default Profile

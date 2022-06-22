@@ -11,7 +11,7 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: calc(1vw + 1rem);
+    padding: 1em;
 }
 
 .info{
@@ -21,7 +21,7 @@
 }
 
 .info p {
-    line-height: 3.5rem;
+    line-height: 3.5em;
     text-align: justify;
 }
 
