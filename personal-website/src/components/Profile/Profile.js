@@ -1,3 +1,4 @@
+import Section from '../../UI/Section';
 import classes from './Profile.module.css';
 import ResumePDF from '../../assets/CruzResume.pdf'
 import HeaderPhoto from '../../assets/img/header-photo.jpg';
@@ -5,8 +6,8 @@ import ProfilePhoto from '../../assets/img/profile-photo.jpg';
 
 const Profile = () => {
     return (
-        <section className={classes.card}>
-            <div className={classes.ID}>
+        <Section className={classes.card}>
+            <div className={classes.id}>
                 <div className = {classes.header}>
                     <img alt = "headerBackground" src = {HeaderPhoto}/>
                 </div>
@@ -46,7 +47,7 @@ const Profile = () => {
                     </a>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 export default Profile

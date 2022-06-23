@@ -12,17 +12,17 @@ const DeveloperTools = () => {
             </div>
 
             <div className = {classes.list}>
-                <label>Visual Studio Code</label>
+                <label>VSCode</label>
                 <label>GitHub</label>
             </div>
             
             <div className = {classes.list}>
-                <label>Visual Studio 2019</label>
+                <label>Visual Studio</label>
                 <label>PyCharm</label>
             </div>
             
             <div className = {classes.list}>
-                <label>Tableau Software</label>
+                <label>Tableau</label>
             </div>
         </div>
     );

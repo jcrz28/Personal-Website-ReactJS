@@ -1,10 +1,10 @@
-import React from 'react';
+import Section from '../../UI/Section';
 import classes from './Information.module.css';
 import InformationImages from './InformationImages';
 
 const Information = () => {
     return (
-        <section className={classes.about}>
+        <Section className={classes.about}>
             <div className= {classes.grid}>
                 <InformationImages/>
                 <div className = {classes.info}>
@@ -21,7 +21,7 @@ const Information = () => {
                     </p>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 export default Information

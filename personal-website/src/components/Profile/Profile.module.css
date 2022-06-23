@@ -1,17 +1,16 @@
 .card{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-
+    
     /* Prevent contents from going up */
     min-height: 90vh;
 }
 
-.ID{
-    flex-direction: column;
-    width: calc(1vw + 20rem);
-    
+.id{
+    width: 100%;
+    max-width: 25rem;
     background-color: white;
     border-style: groove;
 }

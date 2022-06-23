@@ -2,9 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1rem;
-    margin: 0rem calc(1vw + 1rem);
-
+    
     /* Prevent contents from going up */
     min-height: 90vh;
 }
@@ -18,7 +16,7 @@
 
 .set{
     background-color: white;
-    padding: calc(1vw + 1.5rem);
+    padding: 1rem;
     border-style: groove;
 }
 
@@ -28,11 +26,11 @@
     align-items: center;
     margin: auto;
 
-    width: calc(.1vw + 5rem);
-    height: calc(.1vh + 5rem);
+    width: 5rem;
+    height: 5rem;
 
     border-radius: 3rem;
-    font-size: calc(.1vh + 2.5rem);
+    font-size: 2.5rem;
 
     background-color: blue;
     color: white;
@@ -42,29 +40,29 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    line-height: calc(1vh + 2rem);
-    padding: calc(.1vh + 1rem);
+    line-height: 3rem;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 1420px) {
     .grid{
         grid-template-columns: repeat(2, 1fr);
     }
-}
-
-@media screen and (max-width: 950px){
     .skill{
         align-items: center;
     }
+    .set{
+        width: 80vw;
+        max-width: 27rem;
+    }
+}
+
+@media screen and (max-width: 950px){
     .grid, .list{
         grid-template-columns: repeat(1, 1fr);
     }
     .list{
         line-height: 3rem;
         padding: 0rem;
-    }
-    .set{
-        width: 80vw;
-        max-width: 27rem;
     }
 }

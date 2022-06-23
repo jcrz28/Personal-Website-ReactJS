@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Section from '../../UI/Section';
 import classes from './Projects.module.css';
 import ProjectLists from './ProjectLists';
 import ProjectFilter from './ProjectFilter';
@@ -36,7 +37,7 @@ const Projects = () => {
     ));
 
     return (
-        <section className={classes.project}>
+       <Section>
             <h1> Projects </h1>
             
             <ProjectFilter 
@@ -48,7 +49,7 @@ const Projects = () => {
                 { filteredYear === 'all' && allProjects}
                 { filteredYear !== 'all' && yearProjects}
             </main>
-        </section>
+        </Section>
     );
 }
 export default Projects
