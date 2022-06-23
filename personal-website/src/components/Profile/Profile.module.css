@@ -28,24 +28,11 @@
 }
 
 .content{
-    margin: 1rem 0rem 0rem;
+    padding: 1rem;
     text-align: center;
-    line-height: 4rem;
 }
 
-.icons{
-    text-align: center;
-    margin-bottom: 2rem;  
-}
-
-.icons a {
-    font-size: calc(0.5vw + 1.5rem) !important;
-    margin: 0rem 1rem;
-    color: #0000cc;
-}
-
-.icons a:hover{
-    color:black;
-    transition-duration: 0.2s;
-    transform: scale(1.25);
+.content img {
+    width: 5rem;
+    height: 5rem;
 }
