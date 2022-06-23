@@ -32,12 +32,6 @@ const ProjectTitle = props => {
                 }
 
             </div>
-            <video controls>
-                <source src = {props.vid}/>
-            </video>
-
-            
-
         </React.Fragment>
     );
 }

@@ -1,4 +1,4 @@
-import Section from '../../UI/Section';
+import Container from '../../UI/Container';
 import classes from './Profile.module.css';
 import ResumePDF from '../../assets/CruzResume.pdf'
 import HeaderPhoto from '../../assets/img/header-photo.jpg';
@@ -6,7 +6,7 @@ import ProfilePhoto from '../../assets/img/profile-photo.jpg';
 
 const Profile = () => {
     return (
-        <Section className={classes.card}>
+        <Container className={classes.card}>
             <div className={classes.id}>
                 <div className = {classes.header}>
                     <img alt = "headerBackground" src = {HeaderPhoto}/>
@@ -47,7 +47,7 @@ const Profile = () => {
                     </a>
                 </div>
             </div>
-        </Section>
+        </Container>
     );
 }
 export default Profile

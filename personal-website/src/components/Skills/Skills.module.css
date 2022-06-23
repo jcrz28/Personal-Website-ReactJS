@@ -51,10 +51,6 @@
     .skill{
         align-items: center;
     }
-    .set{
-        width: 80vw;
-        max-width: 27rem;
-    }
 }
 
 @media screen and (max-width: 950px){

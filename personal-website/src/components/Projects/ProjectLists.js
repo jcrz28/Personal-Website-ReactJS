@@ -10,6 +10,11 @@ const ProjectLists = props => {
             public ={props.public}
             vid = {props.vid}
             />
+            
+            <video controls>
+                <source src = {props.vid}/>
+            </video>
+
             <ProjectInfo
             desc = {props.desc}
             />

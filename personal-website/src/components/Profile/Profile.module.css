@@ -9,6 +9,7 @@
 }
 
 .id{
+    /* Scales down image but never scales up. Try width: 80vw to see difference */
     width: 100%;
     max-width: 25rem;
     background-color: white;
