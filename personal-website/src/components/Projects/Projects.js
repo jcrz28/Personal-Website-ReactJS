@@ -16,24 +16,26 @@ const Projects = () => {
         return expense.year === filteredYear;
     });
 
-    const allProjects = ProjectObject.map((projects) => (
+    const allProjects = ProjectObject.map((project) => (
         <ProjectLists
-        key = {projects.id}
-        title = {projects.title}
-        public ={projects.public}
-        vid = {projects.vid}
-        desc = {projects.desc}
+        key = {project.id}
+        title = {project.title}
+        public ={project.public}
+        video = {project.video}
+        description = {project.description}
+        technology = {project.technology}
         />
     ));
 
-    const yearProjects = filteredProjects.map((projects) => (
+    const yearProjects = filteredProjects.map((project) => (
         <ProjectLists
-            key = {projects.id}
-            title = {projects.title}
-            public ={projects.public}
-            vid = {projects.vid}
-            desc = {projects.desc}
-            />
+        key = {project.id}
+        title = {project.title}
+        public ={project.public}
+        video = {project.video}
+        description = {project.description}
+        technology = {project.technology}
+        />
     ));
 
     return (

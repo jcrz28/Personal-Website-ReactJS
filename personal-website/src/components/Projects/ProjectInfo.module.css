@@ -1,0 +1,44 @@
+/* Shifts accordion items by 8 pixels to the top */
+.accordion {
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.accordion div {
+    border-radius: 0px !important;
+}
+
+.technology {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.technology label {
+    margin: 0.2rem 0.4rem 0.2rem 0rem;
+    padding: 0.5rem;
+    background-color: rgb(252, 252, 252);
+}
+
+/* Draws a bottom border line */
+.technology span {
+    display: block;
+    height: 1px;
+    background-color: rgb(230, 222, 222) ;
+}
+
+@media screen and (max-width: 767px) {
+    .technology label{
+        display: none;
+    }
+    .info {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .info{
+        display: none;
+    }
+}

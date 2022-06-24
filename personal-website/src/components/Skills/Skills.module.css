@@ -17,7 +17,6 @@
 .set{
     background-color: white;
     padding: 1rem;
-    border-style: groove;
 }
 
 .set span{
@@ -48,7 +47,6 @@
     .grid{
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 @media screen and (max-width: 1000px){

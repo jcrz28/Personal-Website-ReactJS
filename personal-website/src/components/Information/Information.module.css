@@ -10,13 +10,12 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap:calc(1vw + 1rem);
 }
 
 .info{
     justify-content: center;
     padding: calc(1vw + 1rem);
-    border-style: groove;
+    background-color: white;
 }
 
 .info p {

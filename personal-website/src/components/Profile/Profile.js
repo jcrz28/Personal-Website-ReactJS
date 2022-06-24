@@ -21,7 +21,7 @@ const Profile = () => {
                     <h3>John Leonard Cruz</h3>
                     <img alt='University of Houston Logo' src ={UHLogo} />
                     <p><strong>University of Houston</strong></p>
-                    <p>B.S in Computer Science</p>
+                    <p>B.S. in Computer Science</p>
                 </div>
 
                 <ProfileIcons />

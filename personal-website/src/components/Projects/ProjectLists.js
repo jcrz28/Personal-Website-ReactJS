@@ -8,15 +8,16 @@ const ProjectLists = props => {
             <ProjectTitle 
             title = {props.title}
             public ={props.public}
-            vid = {props.vid}
+            video = {props.video}
             />
             
             <video controls>
-                <source src = {props.vid}/>
+                <source src = {props.video}/>
             </video>
 
             <ProjectInfo
-            desc = {props.desc}
+            description = {props.description}
+            technology = {props.technology}
             />
         </div>
     );
