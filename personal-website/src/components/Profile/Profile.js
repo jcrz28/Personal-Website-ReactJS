@@ -1,6 +1,5 @@
 import Container from '../../UI/Container';
 import classes from './Profile.module.css';
-import ResumePDF from '../../assets/CruzResume.pdf'
 import HeaderPhoto from '../../assets/img/header-photo.jpg';
 import ProfilePhoto from '../../assets/img/profile-photo.jpg';
 import UHLogo from '../../assets/img/UHLogo.png';
