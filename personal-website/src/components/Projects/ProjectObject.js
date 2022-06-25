@@ -66,7 +66,7 @@ const ProjectObject = [
         title: "Weather App",
         public: true,
         video: WeatherApp,
-        description: ['Developed a full-stack application to retrieve real-time weather information by utilizing Open Weather Map API.',
+        description: ['Retrieves real-time weather information by utilizing Open Weather Map API.',
             'Generates different background images depending on the current timezone and weather description.'],
         technology: ['JavaScript'],
         year: '2022'
