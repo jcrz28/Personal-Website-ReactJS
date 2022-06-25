@@ -18,10 +18,9 @@
 .technology label {
     margin: 0.2rem 0.4rem 0.2rem 0rem;
     padding: 0.5rem;
-    background-color: rgb(252, 252, 252);
 }
 
-/* Draws a bottom border line */
+/* Draws an underline */
 .technology span {
     display: block;
     height: 1px;
