@@ -9,7 +9,6 @@ import ProjectPage from './pages/ProjectPage';
 
 const App = () => {
   return (
-    <React.Fragment>
       <BrowserRouter>
         <Nav/>
         <Routes>
@@ -19,7 +18,6 @@ const App = () => {
           <Route path = '/Projects' element={<ProjectPage />} />
         </Routes>
       </BrowserRouter>
-    </React.Fragment>
   );
 }
 

@@ -12,11 +12,12 @@ const FrameworkAndLibraries = () => {
             </div>
 
             <div className = {classes.list}>
-                <label>NumPy</label>
-                <label>Matplotlib</label>
+                <label>Node.js</label>
+                <label>Express.js</label>
             </div>
             <div className = {classes.list}>
                 <label>Bootstrap</label>
+                <label>Numpy</label>
             </div>
         </div>
     );

@@ -24,9 +24,11 @@ const ProjectInfo = props => {
                     </div>
                 </Accordion.Header>
                 <Accordion.Body>
-                    <ul>
-                        {projectDescription}
-                    </ul>
+                    <div className="card card-body">
+                        <ul>
+                            {projectDescription}
+                        </ul>
+                    </div>
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>

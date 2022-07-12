@@ -1,24 +1,13 @@
-import VoiceRecognition from '../../assets/vid/VoiceRecognition.mp4';
 import DataRetriever from '../../assets/vid/DataRetriever.mp4';
 import SMS from '../../assets/vid/SMS.mp4';
 import CFGHackathon from '../../assets/vid/CFGHackathon.mp4';
 import YugiohApp from '../../assets/vid/YugiohApp.mp4';
 import WeatherApp from '../../assets/vid/WeatherApp.mp4';
+import AnimeTracker from '../../assets/vid/AnimeTracker.mp4';
 
 const ProjectObject = [
     {
         id: 1,
-        title: "Voice Recognition Device",
-        public: true,
-        video: VoiceRecognition,
-        description: ['Programmed a circuit board using C++ to map predefined voice commands and executing the appropriate action.', 
-            'Designed the electrical layout using NI Multisim and hardwired electrical components on the circuit board.'],
-        technology: ['C++', 'Arduino'],
-        year: '2018'
-        
-    },
-    {
-        id: 2,
         title: "Forbes Billionaire Data Retriever",
         public: true,
         video: DataRetriever,
@@ -28,7 +17,7 @@ const ProjectObject = [
         year: '2021'
     },
     {
-        id: 3,
+        id: 2,
         title: "Student Management System",
         public: false,
         video: SMS,
@@ -39,7 +28,7 @@ const ProjectObject = [
         year: '2021'
     },
     {
-        id: 4,
+        id: 3,
         title: "JPMC Code For Good Hackathon",
         public: false,
         video: CFGHackathon,
@@ -51,7 +40,7 @@ const ProjectObject = [
         year: '2021'
     },
     {
-        id: 5,
+        id: 4,
         title: "Yugioh Deck App",
         public: true,
         video: YugiohApp,
@@ -62,15 +51,26 @@ const ProjectObject = [
         year: '2022'
     },
     {
-        id: 6,
+        id: 5,
         title: "Weather App",
         public: true,
         video: WeatherApp,
         description: ['Retrieves real-time weather information by utilizing Open Weather Map API.',
-            'Generates different background images depending on the current timezone and weather description.'],
-        technology: ['JavaScript'],
+                'Generates different background images depending on the current timezone and weather description.'],
+        technology: ['NodeJS'],
         year: '2022'
     },
+    {
+        id: 6,
+        title: "Anime Tracker",
+        public: true,
+        video: AnimeTracker,
+        description: ['Integrated service side using Node.js and MongoDB Atlas to React in fetching REST API endpoints to ' + 
+                'retrieve, create, and delete anime lists. ',
+                'Developed an interface connecting to Jikan Anime API endpoint to query anime results.'],
+        technology: ['MongoDB Atlas', 'Express.js', 'Node.js', 'React'],
+        year: '2022'
+    }
 ];
 
 export default ProjectObject.reverse()
